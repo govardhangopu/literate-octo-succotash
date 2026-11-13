@@ -83,5 +83,3 @@ Deployment steps (not performed):
 4. Set the project root to the repository folder containing `package.json` (if prompted). Use the Vite preset, install command `npm ci`, build command `npm run build`, and output directory `dist`.
 5. No environment variables are required for this mock-only version.
 6. Review the project settings and only select **Deploy** when you are ready to publish. Afterward, test the deployed URL, role demos, filter changes, CSV download, and browser-local persistence.
-
-Vercel creates deployments from connected repository changes; its docs describe automatic deployment behavior for connected Git repositories. If you later add a real API, configure and secure it separately; static hosting alone will not make browser-local demo data shared or secure.
